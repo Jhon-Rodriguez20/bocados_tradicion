@@ -4,7 +4,7 @@
 
 ## 1. Descargar el APK
 
-* Ve a la página del [release en GitHub de Bocados de Tradicion](https://github.com/Jhon-Rodriguez20/sazon_urbano/releases/tag/v1.0.0)
+* Ve a la página del [release en GitHub de Bocados de Tradicion](https://github.com/Jhon-Rodriguez20/bocados_tradicion/releases/tag/1.2.15)
 * Busca el release más reciente y descarga el archivo `.apk` adjunto (ejemplo: `app-release.apk`).
 
 ## 2. Preparar el dispositivo Android
