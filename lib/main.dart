@@ -19,7 +19,6 @@ void main() async {
   );
 
   await GetStorage.init();
-
   final idiomaControlador = Get.put(IdiomaControlador());
   await idiomaControlador.cargarIdiomaGuardadoManualmente();
 

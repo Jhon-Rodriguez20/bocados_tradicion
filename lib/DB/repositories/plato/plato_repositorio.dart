@@ -33,6 +33,7 @@ class PlatoRepositorio {
   }
 
   Future<List<Plato>> obtenerPlatos() async {
+    
     try {
       final snapshot = await _firestore.collection('platos').get();
 

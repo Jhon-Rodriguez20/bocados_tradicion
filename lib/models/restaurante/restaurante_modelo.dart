@@ -18,6 +18,7 @@ class Restaurante {
   });
 
   factory Restaurante.fromMap(Map<String, dynamic> data) {
+    
     return Restaurante(
       idRestaurante: data['idRestaurante'] ?? '',
       razonSocial: data['razonSocial'] ?? '',

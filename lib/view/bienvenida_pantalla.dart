@@ -40,6 +40,7 @@ class BienvenidaPantalla extends StatelessWidget {
             ],
           ),
         ),
+        
         child: Stack(
           children: [
             Positioned.fill(

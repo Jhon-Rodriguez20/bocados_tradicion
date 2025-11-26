@@ -6,6 +6,7 @@ import 'package:sazon_urbano/DB/repositories/auth/iniciar_sesion_repositorio.dar
 import 'package:sazon_urbano/controllers/navigation/navegacion_controlador.dart';
 
 class AutenticacionControlador extends GetxController {
+  
   final AuthRepositorio _authRepositorio = AuthRepositorio();
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
 

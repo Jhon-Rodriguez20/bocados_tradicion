@@ -18,6 +18,7 @@ class UsuarioControlador extends GetxController {
     required String urlImagen,
     required String idRol,
     String? idGerente,
+    
   }) async {
     try {
       cargando.value = true;

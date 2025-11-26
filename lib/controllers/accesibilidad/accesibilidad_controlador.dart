@@ -8,4 +8,5 @@ class AccesibilidadControlador extends GetxController {
   void toggleAgrandarTexto(bool value) => agrandarTexto.value = value;
   void toggleDesaturacion(bool value) => activarDesaturacion.value = value;
   void toggleEspaciadoTexto(bool value) => espaciadoTexto.value = value;
+  
 }

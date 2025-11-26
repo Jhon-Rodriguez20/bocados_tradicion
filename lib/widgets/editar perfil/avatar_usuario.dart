@@ -4,8 +4,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:http/http.dart' as http;
 
 class AvatarUsuario extends StatelessWidget {
+  
   final double radius;
-
   const AvatarUsuario({super.key, this.radius = 20});
 
   String _obtenerIniciales(User user) {

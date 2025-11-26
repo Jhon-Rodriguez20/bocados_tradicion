@@ -28,6 +28,7 @@ class ImageService {
         return jsonDecode(responseData)['url'];
       }
       return null;
+      
     } catch (e) {
       throw('Error al subir imagen: $e');
     }

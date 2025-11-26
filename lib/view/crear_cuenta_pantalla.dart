@@ -125,6 +125,7 @@ class _CrearCuentaPantallaState extends State<CrearCuentaPantalla> {
                           urlImagen: '',
                           idRol: '3',
                         );
+                        
                       } catch (e) {
                         Get.snackbar('error'.tr, e.toString());
                       }
